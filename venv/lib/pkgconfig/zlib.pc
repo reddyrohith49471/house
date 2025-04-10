@@ -1,0 +1,13 @@
+prefix=/Users/rohith/Desktop/deploy/venv
+exec_prefix=/Users/rohith/Desktop/deploy/venv
+libdir=/Users/rohith/Desktop/deploy/venv/lib
+sharedlibdir=/Users/rohith/Desktop/deploy/venv/lib
+includedir=/Users/rohith/Desktop/deploy/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
